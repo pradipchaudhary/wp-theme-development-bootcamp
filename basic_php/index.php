@@ -65,6 +65,12 @@ echo $teachers[1]['email'];
 $data = $students['name'] . " | " . $students['email'] . " | " . $students['phone'];
 // echo $data;
 
+
+// conditional statment 
+$isAdmin = true;
+echo $isAdmin;
+
+
 echo "<br>";
 // for , while $ foreach 
 // 1. for loop 
@@ -118,57 +124,40 @@ $students_list = [
         "student_id" => "S20241005",
         "email" => "jessica.davis@email.com"
     ],
-    [
-        "name" => "Joshua Miller",
-        "age" => 15,
-        "grade" => 10,
-        "student_id" => "S20241006",
-        "email" => "joshua.miller@email.com"
-    ],
-    [
-        "name" => "Ashley Wilson",
-        "age" => 16,
-        "grade" => 11,
-        "student_id" => "S20241007",
-        "email" => "ashley.wilson@email.com"
-    ],
-    [
-        "name" => "Matthew Moore",
-        "age" => 14,
-        "grade" => 9,
-        "student_id" => "S20241008",
-        "email" => "matthew.moore@email.com"
-    ],
-    [
-        "name" => "Olivia Taylor",
-        "age" => 15,
-        "grade" => 10,
-        "student_id" => "S20241009",
-        "email" => "olivia.taylor@email.com"
-    ],
-    [
-        "name" => "Christopher Anderson",
-        "age" => 17,
-        "grade" => 12,
-        "student_id" => "S20241010",
-        "email" => "christopher.anderson@email.com"
-    ]
+    
 ];
 
 
 
 
-foreach($students as $student){
-    echo "Student Name: " . $student['name'];
+foreach($students_list as $student){
+    echo "<pre>";
+    print_r($student);
+    echo "</pre>";
+}
+
+
+
+// Object in PHP 
+class Person{
+    public $name;
+    public $age;
+
+    function __construct($name, $age){
+        $this->name  = $name;
+        $this->age = $age;
+        echo "Construct function...";
+    }
 }
 
 
 
 
 
+$newUser = new Person("Pradip", 30);
 
 
-
+print_r($newUser);
 
 
 
