@@ -1,0 +1,16 @@
+Custom WordPress theme development 
+===============================
+Basic PHP Programming Language 
+-variable : $email = "Ram"
+- Data Types : 
+	-String : "I am WP Dev" or "10"
+	- Number : 10 or 10.10
+	- Boolean : 
+	- Null : null
+		-
+
+
+folder
+
+Wifi Jobssniper2020
+CLB2838C05
