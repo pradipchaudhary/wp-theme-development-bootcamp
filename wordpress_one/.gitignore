@@ -9,7 +9,7 @@ wp-content/*
 
 # Ignore everything in the themes directory except your custom theme
 wp-content/themes/*
-!wp-content/themes/your-custom-theme-name/
+!wp-content/themes/pradip
 
 # Ignore specific files and directories within your custom theme
 wp-content/themes/your-custom-theme-name/node_modules/
