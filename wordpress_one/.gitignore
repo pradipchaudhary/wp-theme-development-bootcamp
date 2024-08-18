@@ -1,0 +1,33 @@
+# Ignore everything in the root except the wp-content directory
+/*
+!.gitignore
+!wp-content/
+
+# Ignore everything in the wp-content directory except themes
+wp-content/*
+!wp-content/themes/
+
+# Ignore everything in the themes directory except your custom theme
+wp-content/themes/*
+!wp-content/themes/your-custom-theme-name/
+
+# Ignore specific files and directories within your custom theme
+wp-content/themes/your-custom-theme-name/node_modules/
+wp-content/themes/your-custom-theme-name/vendor/
+wp-content/themes/your-custom-theme-name/*.log
+wp-content/themes/your-custom-theme-name/.env
+wp-content/themes/your-custom-theme-name/*.zip
+wp-content/themes/your-custom-theme-name/.DS_Store
+
+# Ignore plugins, uploads, and cache
+wp-content/plugins/
+wp-content/uploads/
+wp-content/cache/
+
+# Ignore other common system files
+.DS_Store
+Thumbs.db
+sftp-config.json
+*.log
+*.sql
+*.sqlite
