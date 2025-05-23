@@ -1,26 +1,96 @@
-# WordPress Custom Theme Development Bootcamp - Jobs Sniper
 
-## Overview
+# WP Theme Development Bootcamp
 
-This repository contains the custom WordPress theme developed during the "WordPress Custom Theme Development Bootcamp" session, organized by Jobs Sniper. The theme is designed to be a fully functional, responsive, and customizable WordPress theme that can be used for various types of websites.
+A custom WordPress theme developed during the Jobs Sniper Bootcamp. This project is designed to provide a practical, hands-on introduction to WordPress theme development from scratch.
 
-## Features
+![WP Theme Screenshot](screenshot.png)
 
--   **Customizable Theme Options:** Includes options for custom logo, colors, and layout.
--   **Responsive Design:** Fully responsive and optimized for all devices.
--   **SEO Optimized:** Built with best practices for search engine optimization.
--   **Widget Ready:** Includes multiple widget areas for easy content management.
--   **Custom Templates:** Includes custom page templates for various page types.
+## 📦 Features
 
-## Folder Structure
+- Fully custom theme structure using WordPress best practices
+- Modular file organization
+- Responsive design ready
+- Clean and maintainable code following WP Coding Standards
+- Enqueued styles and scripts
+- Custom template parts
+- Widget-ready areas
+- Basic accessibility support
 
-```plaintext
-.
-├── style.css            # Main stylesheet for the theme
-├── index.php            # Main template file for the theme
-├── functions.php        # Theme functions and setup
-├── header.php           # Header template
-├── footer.php           # Footer template
-├── sidebar.php          # Sidebar template
-└── README.md            # Project documentation
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- A local development environment (e.g., [LocalWP](https://localwp.com/), XAMPP, MAMP)
+- WordPress installation
+- Git installed
+
+### Installation
+
+1. Clone the repository into your WordPress `wp-content/themes/` directory:
+
+   ```bash
+   git clone https://github.com/pradipchaudhary/wp-theme-development-bootcamp.git wp-theme-bootcamp
+````
+
+2. Rename the folder if needed and activate the theme from the WordPress Dashboard.
+
+3. Customize and start building your WordPress site!
+
+---
+
+## 🗂️ Project Structure
+
 ```
+wp-theme-bootcamp/
+│
+├── assets/          # CSS, JS, and image files
+├── inc/             # Custom functions and theme setup files
+├── template-parts/  # Reusable templates like header, footer, etc.
+├── languages/       # Translation files
+├── style.css        # Theme info and main stylesheet
+├── functions.php    # Theme functions
+├── index.php        # Main template file
+└── screenshot.png   # Theme screenshot shown in WP admin
+```
+
+---
+
+## 🧪 Development Tips
+
+* Use [Theme Check](https://wordpress.org/plugins/theme-check/) plugin to validate theme quality.
+* Follow [WordPress Coding Standards](https://developer.wordpress.org/coding-standards/wordpress-coding-standards/).
+* Utilize [Debug Bar](https://wordpress.org/plugins/debug-bar/) for debugging.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Here’s how you can help:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/YourFeature`)
+3. Commit your changes (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/YourFeature`)
+5. Open a Pull Request
+
+---
+
+## 📜 License
+
+This theme is open-source and available under the [MIT License](LICENSE.md).
+
+---
+
+## 🙌 Acknowledgements
+
+* WordPress Codex
+* WPBeginner and other community tutorials
+* Jobs Sniper Bootcamp instructors
+
+---
+
+Happy Theming! 🎨
+
+
