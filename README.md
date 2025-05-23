@@ -32,7 +32,7 @@ A custom WordPress theme developed during the Jobs Sniper Bootcamp. This project
 
    ```bash
    git clone https://github.com/pradipchaudhary/wp-theme-development-bootcamp.git wp-theme-bootcamp
-````
+   ````
 
 2. Rename the folder if needed and activate the theme from the WordPress Dashboard.
 
