@@ -38,7 +38,7 @@ A custom WordPress theme developed during the Jobs Sniper Bootcamp. This project
 
 3. Customize and start building your WordPress site!
 
----
+
 
 ## 🗂️ Project Structure
 
